@@ -23,7 +23,20 @@
     
 </head>
 <body>
-    <header class="bg-gray-50 pb-32 pt-12">
+    <header class="bg-gray-50 pb-32 ">
+      <nav class="grid grid-cols-1 grid-cols-2 justify-center items-center pb-10">
+        <div  class="text-xs ">
+          <img class="w-30 h-30 pl-20" src="images/logo.png" alt="">
+          <span class="text-lime-400 pl-20">Penguin</span> Fashon
+        </div>
+         <div class=" space-x-4 p-6 bg-red-50 justify-center ">
+          <a href="#">Home</a>
+          <a href="#Women">Women Jaket</a>
+          <a href="#Man">Man Jaket</a>
+          <a href="#about ">About Us</a>
+         </div>
+
+      </nav>
         <section class="container mx-auto sm:flex items-center justify-around">
             <div class="space-y-5 ">
                 <h1 class="text-2xl sm:text-5xl ">
@@ -42,7 +55,7 @@
         </section>
     </header>
     <main class="container mx-auto px-10 bg-slate-200">
-  <section  class="pb-32">
+  <section  class="pb-32 " id="Women">
     <h1 class="text-5xl font-bold"> Women Jakets</h1>
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
      <div class="p-4 shadow-lg rounded-xl">
@@ -89,7 +102,7 @@
      </div>
     </div>
   </section>
-  <section class="pt-7 pb-32">
+  <section class="pt-7 pb-32" id="Man">
     <h1 class="text-5xl font-bold"> Man Jakets</h1>
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
      <div class="p-4 shadow-lg rounded-xl">
@@ -136,7 +149,7 @@
      </div>
     </div>
   </section>
-  <section class="pb-40">
+  <section class="pb-40 " id="about">
     <div class="grid grid-cols-2 gap-7 ">
         <div class="bg-gray-100 rounded-lg flex p-6">
           <img class="w-20 h-20" src="images/house.png" alt="">
@@ -164,6 +177,10 @@
     </div>
   </section>
     </main>
+    <footer class="bg-gray-700 text-slate-200 p-32 h-32">
+      <h1 class="text-center text-3xl font-bold">This Is <span class="text-lime-400">Penda</span></h1>
+      <p class="text-center">@panda is the most favarite shoping website</p>
+    </footer>
     
 </body>
 </html>
